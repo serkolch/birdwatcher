@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BBoNY</title>
+</head>
+<body>
+  <h1>Three Most Recent Sightings</h1>
+  <% sightings.forEach(function(sighting){ %>
+    <h2><%= sighting.name %></h2>
+    <h3>Found: <%= sighting.location %></h3>
+    <h3>Seen: <%= sighting.date %></h3>
+  <% }) %>
+
+</body>
+</html>

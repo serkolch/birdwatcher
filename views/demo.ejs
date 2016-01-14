@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BBoNY</title>
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="/bower_components/handlebars/handlebars.js"></script>
+  <script type="text/javascript" src="/demo.js"></script>
+</head>
+<body>
+  <button id="all-birds">Show all Birds</button><br>
+  <input type="text" placeholder="Location of Birds"><br>
+  <button id="location-birds">Filter</button><br>
+
+  <script type="x-temp" id="sighting-temp">
+    <div class="sighted">
+      <h2>{{name}}</h2>
+      <h3>Seen: {{location}}</h3>
+      <h3>Found: {{date}}</h3>
+    </div>
+  </script>
+
+</body>
+</html>
